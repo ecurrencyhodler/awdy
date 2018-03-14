@@ -19,7 +19,7 @@ layout: default
   <tbody>
   	{% for coin_hash in site.data.coins %}
 	{% assign coin = coin_hash[1] %}
-    <tr>
+    <tr id="{{ coin.symbol }}">
       <th scope="row"><a href="{{ coin.url }}">{{ coin.name }}</a></th>
       <td>{{ coin.symbol }}</td>
       <td>{{ coin.consensus }}</td>
