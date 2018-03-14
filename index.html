@@ -28,7 +28,7 @@ layout: default
       <td>{% if coin.wealth_distribution %}<a href="{{ coin.wealth_distribution_source }}">{{ coin.wealth_distribution }}</a>{% else %}<i class="fas fa-fw fa-question-circle text-danger"></i>{% endif %}</td>
       <td>{% if coin.client_codebases %}<a href="{{ coin.client_codebases_source }}">{{ coin.client_codebases }}</a>{% else %}<i class="fas fa-fw fa-question-circle text-danger"></i>{% endif %}</td>
       <td>{% if coin.public_nodes %}<a href="{{ coin.public_nodes_source }}">{{ coin.public_nodes }}</a>{% else %}<i class="fas fa-fw fa-question-circle text-danger"></i>{% endif %}</td>
-      <td>{% if coin.notes %}<a href="#" data-toggle="tooltip" data-placement="top" title="{{ coin.notes }}"><i class="fas fa-fw fa-info-circle"></i></a>{% endif %}</td>
+      <td>{% if coin.notes %}<a href="#" data-toggle="tooltip" data-placement="top" title="{{ coin.notes | xml_escape }}"><i class="fas fa-fw fa-info-circle"></i></a>{% endif %}</td>
     </tr>
     {% endfor %}
   </tbody>
