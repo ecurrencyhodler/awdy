@@ -11,3 +11,4 @@ client_codebases:
 client_codebases_source:
 public_nodes:
 public_nodes_source:
+notes: Neo currently owns all validating nodes used to run the network, hardcoded into the source
