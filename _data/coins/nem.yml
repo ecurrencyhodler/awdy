@@ -1,0 +1,13 @@
+name: NEM
+symbol: XEM
+url: https://nem.io/
+consensus: POI
+incentivized: Y
+consensus_distribution:
+consensus_distribution_source:
+wealth_distribution: 55%
+wealth_distribution_source: https://nemnodes.org/richlist/
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:
