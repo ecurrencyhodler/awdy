@@ -1,0 +1,14 @@
+name: IOTA
+symbol: MIOTA
+url: https://iota.org/
+consensus: Tangle (DAG)
+incentivized: N
+consensus_distribution: 1
+consensus_distribution_source: https://milestone.iotatangle.space/
+wealth_distribution: 62%
+wealth_distribution_source: https://thetangle.org/statistics/richest-addresses
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:
+notes: Every transaction on the IOTA network must be confirmed by the "coordinator", a centralized node controlled by IOTA
