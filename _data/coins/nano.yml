@@ -1,0 +1,14 @@
+name: Nano
+symbol: NANO
+url: https://nano.org/en
+consensus: DPoS
+incentivized: N
+consensus_distribution: 2
+consensus_distribution_source: https://nano.org/en/explore/representatives
+wealth_distribution: 63%
+wealth_distribution_source: https://raiblocks.net/page/frontiers.php
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:
+notes: "Official Representatives" are run by the developers, hence can be collapsed to represent a single entity
