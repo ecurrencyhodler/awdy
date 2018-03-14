@@ -11,3 +11,4 @@ client_codebases:
 client_codebases_source:
 public_nodes:
 public_nodes_source:
+notes: Although two sources compose more than 50% of Litecoin's hashrate distribution, both of them are mining pools. Therefore, the distribution is a lot more decentralized than it appears and the threat not as severe as people can simply switch to different mining pools.
