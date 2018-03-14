@@ -1,0 +1,13 @@
+name: Bitcoin
+symbol: BTC
+url: https://bitcoin.org
+consensus: PoW
+incentivized: Y
+consensus_distribution: 3
+consensus_distribution_source: https://blockchain.info/pools
+wealth_distribution: 19%
+wealth_distribution_source: https://bitinfocharts.com/top-100-richest-bitcoin-addresses.html
+client_codebases: 2
+client_codebases_source: https://bitnodes.earn.com/nodes/
+public_nodes: 12375
+public_nodes_source: https://bitnodes.earn.com/

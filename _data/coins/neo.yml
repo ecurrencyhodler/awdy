@@ -1,0 +1,13 @@
+name: Neo
+symbol: NEO
+url: https://neo.org/
+consensus: DBFT
+incentivized: N
+consensus_distribution: 1
+consensus_distribution_source: https://github.com/neo-project/neo/blob/master/neo/protocol.json#L6
+wealth_distribution: 70%
+wealth_distribution_source: https://coranos.github.io/neo/charts/neo-account-data.html
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:

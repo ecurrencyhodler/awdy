@@ -1,0 +1,13 @@
+name: Cardano
+symbol: ADA
+url: https://www.cardano.org/en/home/
+consensus: PoS
+incentivized: N
+consensus_distribution: 1
+consensus_distribution_source: https://cardanodocs.com/timeline/bootstrap/
+wealth_distribution: 33%
+wealth_distribution_source: https://adatracker.com/richest
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:

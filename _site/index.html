@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Are we decentralized yet?</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1" />
+    <meta name="description" content="Analyzing how decentralized the top 100 cryptocurrency projects really are">
+    <meta name="author" content="Jackson Palmer">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" >
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+    .coins {
+        font-size: 0.8rem;
+    }
+    </style>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1 mr-auto">are we decentralized yet?</span>
+  <span class="navbar-text"><a href="#"><i class="fab fa-fw fa-github"></i> Contribute on Github</a></span>
+</nav>
+
+<table class="table table-striped coins">
+  <thead class="thead-dark column-titles">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Symbol</th>
+      <th scope="col">Consensus</th>
+      <th scope="col">Miners/voters Incentivized?</th>
+      <th scope="col"># of entities in control of >50% of voting/mining power</th>
+      <th scope="col">% of money supply held by top 100 accounts</th>
+      <th scope="col"># of client codebases that account for > 90% of nodes</th>
+      <th scope="col"># of public nodes</th>
+      <th scope="col">Notes</th>    
+    </tr>
+  </thead>
+  <tbody>
+  	
+	
+    <tr>
+      <th scope="row"><a href="">Monero</a></th>
+      <td>XMR</td>
+      <td>PoW</td>
+      <td>Y</td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Stellar</a></th>
+      <td>XLM</td>
+      <td>FBA</td>
+      <td>N</td>
+      <td><a href="https://dashboard.stellar.org/">1</a></td>
+      <td><a href="http://www.stellar-richlist.com/">95%</a></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Neo</a></th>
+      <td>NEO</td>
+      <td>DBFT</td>
+      <td>N</td>
+      <td><a href="https://github.com/neo-project/neo/blob/master/neo/protocol.json#L6">1</a></td>
+      <td><a href="https://coranos.github.io/neo/charts/neo-account-data.html">70%</a></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Ethereum</a></th>
+      <td>ETH</td>
+      <td>PoW</td>
+      <td>Y</td>
+      <td><a href="https://etherscan.io/stat/miner?range=7&blocktype=blocks">3</a></td>
+      <td><a href="https://etherscan.io/accounts">35%</a></td>
+      <td><a href="https://www.ethernodes.org/network/1">2</a></td>
+      <td><a href="https://www.ethernodes.org/">18266</a></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Ripple</a></th>
+      <td>XRP</td>
+      <td>RPCA (voting system)</td>
+      <td>N</td>
+      <td><a href="https://blog.bitmex.com/the-ripple-story/">1</a></td>
+      <td><a href="https://ledger.exposed/rich-stats/100">97%</a></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><a href="#" data-toggle="tooltip" data-placement="top" title="By default, rippled only points to 5 Ripple-owned validator nodes. User would have to edit a config file to change this - hence only 1 entity owning consensus by default"><i class="fas fa-fw fa-info-circle"></i></a></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Dash</a></th>
+      <td>DASH</td>
+      <td>PoW</td>
+      <td>Y</td>
+      <td><a href="https://chainz.cryptoid.info/dash/#!extraction">2</a></td>
+      <td><a href="https://bitinfocharts.com/top-100-richest-dash-addresses.html">14%</a></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Cardano</a></th>
+      <td>ADA</td>
+      <td>PoS</td>
+      <td>N</td>
+      <td><a href="https://cardanodocs.com/timeline/bootstrap/">1</a></td>
+      <td><a href="https://adatracker.com/richest">33%</a></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Bitcoin Cash</a></th>
+      <td>BCH</td>
+      <td>PoW</td>
+      <td>Y</td>
+      <td><a href="https://cash.coin.dance/blocks/today">3</a></td>
+      <td><a href="https://bitinfocharts.com/top-100-richest-bitcoin%20cash-addresses.html">25%</a></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Bitcoin</a></th>
+      <td>BTC</td>
+      <td>PoW</td>
+      <td>Y</td>
+      <td><a href="https://blockchain.info/pools">3</a></td>
+      <td><a href="https://bitinfocharts.com/top-100-richest-bitcoin-addresses.html">19%</a></td>
+      <td><a href="https://bitnodes.earn.com/nodes/">2</a></td>
+      <td><a href="https://bitnodes.earn.com/">12375</a></td>
+      <td></td>
+    </tr>
+    
+	
+    <tr>
+      <th scope="row"><a href="">Litecoin</a></th>
+      <td>LTC</td>
+      <td>PoW</td>
+      <td>Y</td>
+      <td><a href="https://www.litecoinpool.org/pools">2</a></td>
+      <td><a href="https://bitinfocharts.com/top-100-richest-litecoin-addresses.html">45%</a></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td><i class="fas fa-fw fa-question-circle text-danger"></i></td>
+      <td></td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<table class="table table-striped coins">
+  <thead class="thead-dark column-titles">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Symbol</th>
+      <th scope="col">Consensus</th>
+      <th scope="col">Miners/voters Incentivized?</th>
+      <th scope="col"># of entities in control of >50% of voting/mining power</th>
+      <th scope="col">% of money supply held by top 100 accounts</th>
+      <th scope="col"># of client codebases that account for > 90% of nodes</th>
+      <th scope="col"># of public nodes</th>
+      <th scope="col">Notes</th>    
+    </tr>
+  </thead>
+  <tbody>
+  	{% for coin_hash in site.data.coins %}
+	{% assign coin = coin_hash[1] %}
+    <tr>
+      <th scope="row"><a href="{{ coin.info_url }}">{{ coin.name }}</a></th>
+      <td>{{ coin.symbol }}</td>
+      <td>{{ coin.consensus }}</td>
+      <td>{{ coin.incentivized }}</td>
+      <td>{% if coin.consensus_distribution %}<a href="{{ coin.consensus_distribution_source }}">{{ coin.consensus_distribution }}</a>{% else %}<i class="fas fa-fw fa-question-circle text-danger"></i>{% endif %}</td>
+      <td>{% if coin.wealth_distribution %}<a href="{{ coin.wealth_distribution_source }}">{{ coin.wealth_distribution }}</a>{% else %}<i class="fas fa-fw fa-question-circle text-danger"></i>{% endif %}</td>
+      <td>{% if coin.client_codebases %}<a href="{{ coin.client_codebases_source }}">{{ coin.client_codebases }}</a>{% else %}<i class="fas fa-fw fa-question-circle text-danger"></i>{% endif %}</td>
+      <td>{% if coin.public_nodes %}<a href="{{ coin.public_nodes_source }}">{{ coin.public_nodes }}</a>{% else %}<i class="fas fa-fw fa-question-circle text-danger"></i>{% endif %}</td>
+      <td>{% if coin.notes %}<a href="#" data-toggle="tooltip" data-placement="top" title="{{ coin.notes }}"><i class="fas fa-fw fa-info-circle"></i></a>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

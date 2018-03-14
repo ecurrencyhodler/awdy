@@ -1,0 +1,13 @@
+name: Dash
+symbol: DASH
+url: https://dash.org
+consensus: PoW
+incentivized: Y
+consensus_distribution: 2
+consensus_distribution_source: https://chainz.cryptoid.info/dash/#!extraction
+wealth_distribution: 14%
+wealth_distribution_source: https://bitinfocharts.com/top-100-richest-dash-addresses.html
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:

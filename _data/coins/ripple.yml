@@ -1,0 +1,14 @@
+name: Ripple
+symbol: XRP
+url: https://ripple.com/
+consensus: RPCA (voting system)
+incentivized: N
+consensus_distribution: 1
+consensus_distribution_source: https://blog.bitmex.com/the-ripple-story/
+wealth_distribution: 97%
+wealth_distribution_source: https://ledger.exposed/rich-stats/100
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:
+notes: By default, rippled only points to 5 Ripple-owned validator nodes. User would have to edit a config file to change this - hence only 1 entity owning consensus by default

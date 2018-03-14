@@ -1,0 +1,13 @@
+name: Monero
+symbol: XMR
+url: https://getmonero.org/
+consensus: PoW
+incentivized: Y
+consensus_distribution:
+consensus_distribution_source:
+wealth_distribution:
+wealth_distribution_source:
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:
