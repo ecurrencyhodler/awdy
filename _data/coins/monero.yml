@@ -7,7 +7,8 @@ consensus_distribution:
 consensus_distribution_source:
 wealth_distribution:
 wealth_distribution_source:
-client_codebases:
-client_codebases_source:
-public_nodes:
-public_nodes_source:
+client_codebases: 1
+client_codebases_source: https://getmonero.org/downloads/
+public_nodes: 2044
+public_nodes_source: https://monerohash.com/nodes-distribution.html
+notes: Only 1 full node implementation could be found for public download - hence assuming 1 for client codebases
