@@ -1,0 +1,13 @@
+name: Dogecoin
+symbol: DOGE
+url: http://dogecoin.com
+consensus: PoW
+incentivized: Y
+consensus_distribution: 2
+consensus_distribution_source: https://dogechain.info
+wealth_distribution: 51%
+wealth_distribution_source: https://bitinfocharts.com/dogecoin/
+client_codebases:
+client_codebases_source:
+public_nodes:
+public_nodes_source:
