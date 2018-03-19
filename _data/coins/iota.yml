@@ -4,11 +4,11 @@ url: https://iota.org/
 consensus: Tangle (DAG)
 incentivized: N
 consensus_distribution: 1
-consensus_distribution_source: https://milestone.iotatangle.space/
+consensus_distribution_source: https://docs.iota.org/introduction/tangle/consensus
 wealth_distribution: 62%
 wealth_distribution_source: https://thetangle.org/statistics/richest-addresses
-client_codebases:
-client_codebases_source:
-public_nodes:
-public_nodes_source:
-notes: Every transaction on the IOTA network must be confirmed by the "coordinator", a centralized node controlled by IOTA
+client_codebases: 1
+client_codebases_source: https://github.com/iotaledger/iri
+public_nodes: 156
+public_nodes_source: https://iotanode.host/
+notes: For a transaction to be confirmed on the IOTA Network it must be referenced by the "coordinator", a centralized node controlled by the IOTA Foundation
