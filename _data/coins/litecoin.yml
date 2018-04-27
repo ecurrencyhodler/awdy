@@ -3,7 +3,7 @@ symbol: LTC
 url: https://litecoin.org
 consensus: PoW
 incentivized: Y
-consensus_distribution: 2
+consensus_distribution: 3
 consensus_distribution_source: https://www.litecoinpool.org/pools
 wealth_distribution: 45%
 wealth_distribution_source: https://bitinfocharts.com/top-100-richest-litecoin-addresses.html
